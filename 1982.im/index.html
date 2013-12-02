@@ -1,0 +1,1013 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<meta http-equiv="content-script-type" content="text/javascript">
+
+<<<<<<< HEAD
+<title>吕峰</title>
+=======
+<title>1982设计工作室 Logo / VI / Web / Design</title>
+>>>>>>> 657bf6356cbe255ab0d9fd839191097cf614203b
+
+<link href="assets/style.css" rel="stylesheet">
+<link rel="stylesheet" href="assets/formalize.css">
+<!-- <link rel="stylesheet" href="assets/ghindaVideoPlayer.css"> -->
+
+<style>
+/* Paragraph Columns on Pages */
+html, body, #header, #header2, .projectInfo, #loader, #blocker, .commentsBoxy, .video {
+background: #ffffff;
+}
+
+body, h1 a, h2 a, h3 a, h4 a, h5 a, h6 a, h1, h2, h3, h4, h5, h6 {
+color: #515151;
+}
+
+.dropdown-layers,
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+color: #515151;
+background-color: #ffffff;
+}
+
+a {
+color: #72cefe;
+}
+
+a:hover {
+	color: #09F;
+}
+
+#navInnerForward, .slideUpDown, .slideRight, .slideLeft, .bigButton {
+background: #ffffff;
+color: #ffffff;
+}
+
+#navInnerForward:hover, .slideUpDown:hover, .slideRight:hover, .slideLeft:hover, .bigButton:hover {
+background: #72cefe;
+}
+
+.box-shadow {
+-moz-box-shadow: 0px 0px 0px rgba(0,0,0, 0);
+-webkit-box-shadow: 0px 0px 0px rgba(0,0,0, 0);
+box-shadow: 0px 0px 0px rgba(0,0,0, 0);
+}
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+-moz-box-shadow: 0px 0px 0px rgba(0,0,0, 0); /* Firefox */
+-webkit-box-shadow: 0px 0px 0px rgba(0,0,0, 0); /* Safari, Chrome */
+box-shadow: 0px 0px 0px rgba(0,0,0, 0); /* CSS3 */
+}
+
+textarea,
+select,
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+  -moz-box-shadow: inset 0px 0px 0px rgba(0,0,0, 0); /* Firefox */
+  -webkit-box-shadow: inset 0px 0px 0px rgba(0,0,0, 0); /* Safari, Chrome */
+  box-shadow: inset 0px 0px 0px rgba(0,0,0, 0); /* CSS3 */
+}
+
+
+button,
+input[type="reset"],
+input[type="submit"],
+input[type="button"] {
+background: #ffffff;
+color: #ffffff;
+}
+
+::-webkit-input-placeholder {
+color: #515151;
+}
+
+.counter {
+color: #515151;
+background-color: #ffffff;
+}
+
+.commentsBoxy {
+border-left: 1px solid #dddddd;
+}
+
+.projectSeparator {
+background: #dddddd;
+}
+
+.metaSeparate {
+border-top: 1px solid #dddddd;
+}
+
+/* InfinityScroll LoadMarker */
+#infscr-loading-inner {
+padding: 24px;
+}
+
+
+.fallback {
+padding: 24px;
+}
+.mright20{ margin-right:20px;}
+
+</style>
+<script type="text/javascript" src="assets/jquery.js"></script>
+
+</head>
+<body>
+
+	
+<div style="opacity: 0; display: none;" id="loader">&nbsp;</div>
+<div id="blocker">&nbsp;</div>
+<div style="opacity: 1;" id="delay">&nbsp;</div>
+
+<div id="siteWrapper">
+
+	<div id="header" class="" style="position: fixed;">
+		<div id="headerInner" class="left" style="padding:0 24px; height:80px; width: 1855px;">
+			<div class="left" style="width:400px; ">
+				<h1>
+				    <a class="history" href="http://1982.im/"><img src="img/fenglogo.jpg"  alt="#"></a>
+				</h1>
+		  </div>
+						
+			<div id="vertNavs" class="right">
+				<div class="right modul1 goUp bigButton box-shadow cursor" style="display: none;">
+					<strong>▲</strong>
+				</div>
+			</div>
+		</div>
+	</div>	
+			
+			
+  <script type="text/javascript">
+  var buttonColor = '#ffffff';
+  var buttonColorHover = '#72cefe';
+  var defaultProjectInfo = 'true';
+  var headerInnerHeight = 30;
+  var infinityScroll = false;
+  var bindMouseWheel = true;
+  var whenFinishedBodyScroll = 'adjust';
+  var whenFinishedBodyScrollSpeed = 400;
+  var afterLastSlide = 'first';
+  var transitionEase = 'easeInOutQuart';
+  var verticalTransitionSpeed = 800;
+  var horizontalTransitionSpeed = 250;
+  var attachmentSize = 'large';
+  var maxHeight = 600;
+  var thumbnailWidth = 480;
+  var menuPadding = 24;
+  var imagePadding = 24;
+  var menuModulWidth = 150;
+  var paddingFix = 78;
+  </script>
+
+
+	<div id="full">
+		<div id="fullInner" style="margin-top: 78px;" class="" name="home">
+	    
+<<<<<<< HEAD
+	    <div class="project left">
+	    		<div class="projectSlideHolder left" name="0">
+	    		  <div class="projectSlideHolderInner left">
+           <!--web图片-->       
+                        <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/fweb.jpg" align="web">
+                         </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web2.jpg">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web3.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web4.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web5.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web6.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web7.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web8.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web9.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web10.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web11.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web12.jpg">
+                        </div> <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/web13.jpg">
+                        </div>                                     
+	    		  </div>
+	    		</div>
+	    			    			
+	    		<div class="counter left bigButton box-shadow"></div>
+	    		                                              
+	    		<div class="toggler left bigButton box-shadow">◀ Info</div>
+	    		
+	    		<div class="projectSeparator"> &nbsp; </div>
+	    		
+					<div class="commentsBoxy left modul2 off"></div>
+					<div class="projectInfo modul2 on" style="padding-left: 24px; width: 324px; height: 600px; left: 0px;">
+	    	    <div class="projectInfoInner" style="padding-right: 24px;">
+	    	    	<h2><strong>web</strong></h2>
+	    	    	<h2><br>
+    	    	    <div class="post_content">
+	    	    	  <p>
+	    	    	    深度挖掘设计的商业价值      <br/>
+                        用化繁为简的设计     <br/>
+                        为您找到最直接有效的       <br/>
+                             视觉解决方案      <br/>
+                    <h2>品牌网站建设</h2> <br/>
+                       -视觉设计<br/>
+                       -交互流程设计<br/>
+                        -程序定制开发<br/>
+                        <h2>电子商务网站定制</h2> <br/>
+                        <h2>移动应用设计</h2> <br/>
+                        -界面设计<br/>
+                        -交互流程设计<br/>
+                        -动态场景设计<br/>
+                        -视觉设计<br/>
+                        <h2>促销主题</h2> <br/>
+                </p>
+                <h2>TEL:18610157820</h2> <br/>
+	    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com<</a></p>
+                <p>&nbsp;</p>
+	    	    		<br>
+	    	    	</div>
+	    				    				    				    				
+	    	    </div>
+	    	</div>	    	
+	    </div>
+			
+      <div class="project left">
+	    		<div class="projectSlideHolder left" name="0">
+	    		  <div class="projectSlideHolderInner left">
+              <!-- 海报poster -->
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/fposter.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao1.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao2.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao3.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao4.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao5.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao6.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao7.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao8.jpg">
+                        </div>
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao9.jpg">
+                        </div>
+                          <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao10.jpg">
+                        </div>
+                          <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao11.jpg">
+                        </div> 
+                         <div class="projectSlide realimage image media cursor left mright20">
+                            <img style="height: 600px;" src="img/haibao12.jpg">
+                        </div> <strong></strong>
+                                             
+	    		  </div>
+	    		</div>
+	    			    			
+	    		<div class="counter left bigButton box-shadow"></div>
+	    		                                              
+	    		<div class="toggler left bigButton box-shadow">◀ Info</div>
+	    		
+	    		<div class="projectSeparator"> &nbsp; </div>
+	    		
+					<div class="commentsBoxy left modul2 off"></div>
+					<div class="projectInfo modul2 on" style="padding-left: 24px; width: 324px; height: 600px; left: 0px;">
+	    	    <div class="projectInfoInner" style="padding-right: 24px;"> 
+	    	      <h2><strong>poster</strong> </h2>
+	    	      <pre>&nbsp;
+ 	    	    		    	    	 	    	    	</pre>
+   	    	        <div class="post_content">
+	    	    	  <p>
+                        <strong><strong>深度挖掘设计的商业价值 <br/>
+                  用化繁为简的设计     <br/>
+                 为您找到最直接有效的       <br/>
+                             视觉解决方案      <br/>
+	    	    	   -广告设计 <br/>
+                  -海报设计     <br/>
+                  -DM设计      <br/>
+                  -折页设计     <br/>
+                  -单页设计   <br/>
+                  -菜单设计   <br/>
+                      </strong> </p>
+                      <h2>TEL:18610157820</h2> <br/>
+	    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com<</a></p>
+                <p>&nbsp;</p>
+	    	    		<br>
+	    	    	</div>
+	    				    				    				    				
+	    	    </div>
+	    	</div>	    	
+	    </div>
+<!--logo排-->     
+        <div class="project left" style="width: 1903px; height: 588px;" id="project_1">
+	    		<div name="0" class="projectSlideHolder left" style="width: 1903px; height: 588px;">
+	    		  <div class="projectSlideHolderInner left" style="padding-left: 324px;">  
+                  <!--logo排-->         
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/flogo.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo1.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo2.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo3.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo4.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo5.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo6.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo7.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo8.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo9.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/logo10.jpg" style="height: 600px;">
+                        </div>
+	    		  </div>
+	    		</div>
+	    			    			
+	    		<div class="counter left bigButton box-shadow" style="margin-top: 434px; left: 372px;">1/8</div>
+	    		                                              
+	    		<div class="toggler left bigButton box-shadow" style="margin-top: 434px; left: 273px;">◀ Info</div>
+	    		
+	    		<div class="projectSeparator" style="width: 1855px; margin-top: 540px; margin-left: 24px;"> &nbsp; </div>
+	    		
+					<div class="commentsBoxy left modul2 off" style="height: 600px;"></div>
+					<div style="padding-left: 24px; width: 324px; height: 600px; left: 0px;" class="projectInfo modul2 on">
+	    	    <div style="padding-right: 24px;" class="projectInfoInner">
+	    	    	<h2>LOGO</h2><br>
+	    	    		    	    	
+	    	    	<div class="post_content">
+	    	    	  <p>
+	    	    	     <strong>深度挖掘设计的商业价值 <br/>
+                  用化繁为简的设计     <br/>
+                 为您找到最直接有效的       <br/>
+              视觉解决方案      <br/>
+                                       <br>
+                  -驼峰家具     <br>
+                  -五平家店    <br>
+                  -道口烧鸡  <br>
+                 -玺越传媒 <br>
+                  -麻辣1+1       <br>
+                  -峰会      <br>
+                  -宝宇地产   <br>
+                  -麻辣百分百<br>
+                  -千里马百合<br>
+                  -BSG<br>
+                  -union of logo     </strong><br>
+                  <h2>TEL:18610157820</h2> <br/>
+	    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com<</a></p>
+                 
+                </p>
+                <p>&nbsp;</p>
+	    	    		<br>
+	    	    	</div>
+	    				    				    				    				
+	    	    </div>
+	    	</div>	    	
+	    </div>
+ <!--desing排-->     
+        <div class="project left" style="width: 1903px; height: 588px;" id="project_1">
+	    		<div name="0" class="projectSlideHolder left" style="width: 1903px; height: 588px;">
+	    		  <div class="projectSlideHolderInner left" style="padding-left: 324px;">
+              <!-- design图片-->
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/fdesign.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design1.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design2.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design3.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design4.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design5.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design6.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design7.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/design8.jpg" style="height: 600px;">
+                       </div>                      
+	    		  </div>
+	    		</div>
+	    			    			
+	    		<div class="counter left bigButton box-shadow" style="margin-top: 434px; left: 372px;">1/8</div>
+	    		                                              
+	    		<div class="toggler left bigButton box-shadow" style="margin-top: 434px; left: 273px;">◀ Info</div>
+	    		
+	    		<div class="projectSeparator" style="width: 1855px; margin-top: 540px; margin-left: 24px;"> &nbsp; </div>
+	    		
+					<div class="commentsBoxy left modul2 off" style="height: 600px;"></div>
+					<div style="padding-left: 24px; width: 324px; height: 600px; left: 0px;" class="projectInfo modul2 on">
+	    	    <div style="padding-right: 24px;" class="projectInfoInner">
+	    	    	<h2>DESIGN</h2><br>
+	    	    		    	    	
+	    	    	<div class="post_content">
+	    	    	  <p>
+	    	    	  
+	    	    	    <strong> 深度挖掘设计的商业价值 <br/>
+                  用化繁为简的设计     <br/>
+                 为您找到最直接有效的       <br/>
+                             视觉解决方案      <br/>
+                                       <br>
+                  -书法       <br>
+                  -创意     <br>
+                  -绘画       <br>
+                  -其他     <br>
+    	    	      </strong> </p>
+                      <h2>TEL:18610157820</h2> <br/>
+	    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com<</a></p>
+                <p>&nbsp;</p>
+	    	    		<br>
+	    	    	</div>
+	    				    				    				    				
+	    	    </div>
+	    	</div>	    	
+	    </div>
+ <!--packing排-->     
+        <div class="project left" style="width: 1903px; height: 588px;" id="project_1">
+	    		<div name="0" class="projectSlideHolder left" style="width: 1903px; height: 588px;">
+	    		  <div class="projectSlideHolderInner left" style="padding-left: 324px;">
+              <!-- 包装图片 -->
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/fpacking.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing1.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing2.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing3.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing4.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing5.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing6.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing7.jpg" style="height: 600px;">
+                        </div>
+                        <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                            <img src="img/packing8.jpg" style="height: 600px;">
+                       </div>                      
+	    		  </div>
+	    		</div>
+	    			    			
+	    		<div class="counter left bigButton box-shadow" style="margin-top: 434px; left: 372px;">1/8</div>
+	    		                                              
+	    		<div class="toggler left bigButton box-shadow" style="margin-top: 434px; left: 273px;">◀ Info</div>
+	    		
+	    		<div class="projectSeparator" style="width: 1855px; margin-top: 540px; margin-left: 24px;"> &nbsp; </div>
+	    		
+					<div class="commentsBoxy left modul2 off" style="height: 600px;"></div>
+					<div style="padding-left: 24px; width: 324px; height: 600px; left: 0px;" class="projectInfo modul2 on">
+	    	    <div style="padding-right: 24px;" class="projectInfoInner">
+	    	    	<h2>PACKING</h2><br>
+	    	    		    	    	
+	    	    	<div class="post_content">
+	    	    	  <p>
+	    	            <strong> 深度挖掘设计的商业价值 <br/>
+                  用化繁为简的设计     <br/>
+                 为您找到最直接有效的       <br/>
+                             视觉解决方案      <br/>
+                                       <br>
+                  -食品包装    <br>
+                  -电商快递包装       <br>
+                  -快消品包装      <br>
+                  -电子产品包装     <br>
+                  <br>
+                  -简易包装     <br>
+                  -环保包装    <br>
+                  -多用途包装 <br>
+    	              </strong> </p>
+                      <h2>TEL:18610157820</h2> <br/>
+	    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com</a></p>
+                <p>&nbsp;</p>
+	    	    		<br>
+	    	    	</div>
+	    				    				    				    				
+	    	    </div>
+	    	</div>	    	
+	    </div>
+
+
+
+=======
+	    <!--web图片-->
+	    <div class="project left" id="project_1">
+    		<div class="projectSlideHolder left" name="0">
+    		  <div class="projectSlideHolderInner left">
+            <!--web图片-->       
+            <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/fweb.jpg" align="web">
+             </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web2.jpg">
+            </div>
+            <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web3.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web4.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web5.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web6.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web7.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web8.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web9.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web10.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web11.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web12.jpg">
+            </div> <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/web13.jpg">
+            </div>                                     
+    		  </div>
+    		</div>
+    		
+    		<div class="projectBottom left" style="margin-top: 542px; right: 24px;">
+    			<div class="projectBottomInner hundred left">
+    				<div class="slideLeft left box-shadow">
+    				    &nbsp;
+    				</div>	
+    				<div class="slideRight left box-shadow">
+    				    &nbsp;
+    				</div>	
+    			</div>
+    		</div>
+    		  			
+    		<div class="counter left bigButton box-shadow"></div>
+    		                                              
+    		<div class="toggler left bigButton box-shadow">◀ Info</div>
+    		
+    		<div class="projectSeparator"> &nbsp; </div>
+    		
+				<div class="commentsBoxy left modul2 off"></div>
+				<div class="projectInfo modul2 on" style="padding-left: 24px; width: 324px; height: 600px; left: 0px;">
+    	    <div class="projectInfoInner" style="padding-right: 24px;">
+    	    	<h2><strong>web</strong></h2>
+    	    	<h2><br>
+  	    	    <div class="post_content">
+    	    	  <p>
+    	    	    深度挖掘设计的商业价值      <br/>
+                用化繁为简的设计     <br/>
+                为您找到最直接有效的       <br/>
+                视觉解决方案      <br/>
+                <h2>品牌网站建设</h2> <br/>
+               -视觉设计<br/>
+               -交互流程设计<br/>
+                -程序定制开发<br/>
+                <h2>电子商务网站定制</h2> <br/>
+                <h2>移动应用设计</h2> <br/>
+                -界面设计<br/>
+                -交互流程设计<br/>
+                -动态场景设计<br/>
+                -视觉设计<br/>
+                <h2>促销主题</h2> <br/>
+              </p>
+              <h2>TEL:18610157820</h2> <br/>
+    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com</a></p>
+              <p>&nbsp;</p>
+    	    		<br>
+    	    	</div>
+    				    				    				    				
+    	    </div>
+	    	</div>	    	
+	    </div>
+			
+			<!-- 海报poster -->
+      <div class="project left" id="project_2">
+    		<div class="projectSlideHolder left" name="0">
+    		  <div class="projectSlideHolderInner left">
+            <!-- 海报poster -->
+            <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/fposter.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao1.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao2.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao3.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao4.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao5.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao6.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao7.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao8.jpg">
+            </div>
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao9.jpg">
+            </div>
+              <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao10.jpg">
+            </div>
+              <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao11.jpg">
+            </div> 
+             <div class="projectSlide realimage image media cursor left mright20">
+                <img style="height: 600px;" src="img/haibao12.jpg">
+            </div> 
+            <strong></strong>
+                                           
+    		  </div>
+    		</div>
+    		<div class="projectBottom left" style="margin-top: 542px; right: 24px;">
+    			<div class="projectBottomInner hundred left">
+    				<div class="slideLeft left box-shadow">
+    				    &nbsp;
+    				</div>	
+    				<div class="slideRight left box-shadow">
+    				    &nbsp;
+    				</div>	
+    			</div>
+    		</div>    			
+    		<div class="counter left bigButton box-shadow"></div>
+    		                                              
+    		<div class="toggler left bigButton box-shadow">◀ Info</div>
+    		
+    		<div class="projectSeparator"> &nbsp; </div>
+    		
+				<div class="commentsBoxy left modul2 off"></div>
+				<div class="projectInfo modul2 on" style="padding-left: 24px; width: 324px; height: 600px; left: 0px;">
+    	    <div class="projectInfoInner" style="padding-right: 24px;"> 
+    	      <h2><strong>poster</strong> </h2>
+    	      <pre>&nbsp;</pre>
+ 	    	    <div class="post_content">
+    	    	  <p>
+                      <strong><strong>深度挖掘设计的商业价值 <br/>
+                用化繁为简的设计     <br/>
+               为您找到最直接有效的       <br/>
+                           视觉解决方案      <br/>
+    	    	   -广告设计 <br/>
+                -海报设计     <br/>
+                -DM设计      <br/>
+                -折页设计     <br/>
+                -单页设计   <br/>
+                -菜单设计   <br/>
+                    </strong> </p>
+                    <h2>TEL:18610157820</h2> <br/>
+    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com</a></p>
+              <p>&nbsp;</p>
+    	    		<br>
+    	    	</div>
+    				    				    				    				
+    	    </div>
+	    	</div>	    	
+	    </div>
+	    
+      <!--logo排-->     
+      <div class="project left" id="project_3">
+    		<div name="0" class="projectSlideHolder left" style="width: 1903px; height: 588px;">
+    		  <div class="projectSlideHolderInner left" style="padding-left: 324px;">  
+            <!--logo排-->         
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/flogo.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo1.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo2.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo3.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo4.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo5.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo6.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo7.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo8.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo9.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/logo10.jpg" style="height: 600px;">
+            </div>
+    		  </div>
+    		</div>
+    		<div class="projectBottom left" style="margin-top: 542px; right: 24px;">
+    			<div class="projectBottomInner hundred left">
+    				<div class="slideLeft left box-shadow">
+    				    &nbsp;
+    				</div>	
+    				<div class="slideRight left box-shadow">
+    				    &nbsp;
+    				</div>	
+    			</div>
+    		</div>   			
+    		<div class="counter left bigButton box-shadow" style="margin-top: 434px; left: 372px;"></div>
+  		                                              
+    		<div class="toggler left bigButton box-shadow" style="margin-top: 434px; left: 273px;">◀ Info</div>
+  		
+    		<div class="projectSeparator" style="width: 1855px; margin-top: 540px; margin-left: 24px;"> &nbsp; </div>
+  		
+				<div class="commentsBoxy left modul2 off" style="height: 600px;"></div>
+				<div style="padding-left: 24px; width: 324px; height: 600px; left: 0px;" class="projectInfo modul2 on">
+    	    <div style="padding-right: 24px;" class="projectInfoInner">
+    	    	<h2>LOGO</h2><br>
+  	    		    	    	
+    	    	<div class="post_content">
+    	    	  <p>
+    	    	     <strong>深度挖掘设计的商业价值 <br/>
+                用化繁为简的设计     <br/>
+               为您找到最直接有效的       <br/>
+            视觉解决方案      <br/>
+                                     <br>
+                -驼峰家具     <br>
+                -五平家店    <br>
+                -道口烧鸡  <br>
+               -玺越传媒 <br>
+                -麻辣1+1       <br>
+                -峰会      <br>
+                -宝宇地产   <br>
+                -麻辣百分百<br>
+                -千里马百合<br>
+                -BSG<br>
+                -union of logo     </strong><br>
+                <h2>TEL:18610157820</h2> <br/>
+    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com</a></p>
+             
+              </p>
+              <p>&nbsp;</p>
+    	    		<br>
+    	    	</div>
+  				    				    				    				
+    	    </div>
+	    	</div>	    	
+	    </div>
+	    
+      <!--desing排-->     
+      <div class="project left" id="project_4">
+    		<div name="0" class="projectSlideHolder left" style="width: 1903px; height: 588px;">
+    		  <div class="projectSlideHolderInner left" style="padding-left: 324px;">
+            <!-- design图片-->
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/fdesign.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/design1.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/design2.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/design3.jpg" style="height: 600px;">
+            </div>                     
+    		  </div>
+    		</div>
+    		
+    		<div class="projectBottom left" style="margin-top: 542px; right: 24px;">
+    			<div class="projectBottomInner hundred left">
+    				<div class="slideLeft left box-shadow">
+    				    &nbsp;
+    				</div>	
+    				<div class="slideRight left box-shadow">
+    				    &nbsp;
+    				</div>	
+    			</div>
+    		</div>
+    		   			
+    		<div class="counter left bigButton box-shadow" style="margin-top: 434px; left: 372px;"></div>
+    		                                              
+    		<div class="toggler left bigButton box-shadow" style="margin-top: 434px; left: 273px;">◀ Info</div>
+    		
+    		<div class="projectSeparator" style="width: 1855px; margin-top: 540px; margin-left: 24px;"> &nbsp; </div>
+    		
+				<div class="commentsBoxy left modul2 off" style="height: 600px;"></div>
+				<div style="padding-left: 24px; width: 324px; height: 600px; left: 0px;" class="projectInfo modul2 on">
+    	    <div style="padding-right: 24px;" class="projectInfoInner">
+    	    	<h2>DESIGN</h2><br>
+    	    		    	    	
+    	    	<div class="post_content">
+    	    	  <p>
+    	    	  
+    	    	    <strong> 深度挖掘设计的商业价值 <br/>
+                用化繁为简的设计     <br/>
+               为您找到最直接有效的       <br/>
+                           视觉解决方案      <br/>
+                                     <br>
+                -书法       <br>
+                -创意     <br>
+                -绘画       <br>
+                -其他     <br>
+  	    	      </strong> </p>
+                    <h2>TEL:18610157820</h2> <br/>
+    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com</a></p>
+              <p>&nbsp;</p>
+    	    		<br>
+    	    	</div>
+    				    				    				    				
+    	    </div>
+	    	</div>	    	
+>>>>>>> 657bf6356cbe255ab0d9fd839191097cf614203b
+	    </div>
+	    
+      <!--packing排-->     
+      <div class="project left" id="project_5">
+    		<div name="0" class="projectSlideHolder left" style="width: 1903px; height: 588px;">
+    		  <div class="projectSlideHolderInner left" style="padding-left: 324px;">
+            <!-- 包装图片 -->
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/fPacking.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/packing1.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/packing2.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/packing3.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/packing4.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/packing5.jpg" style="height: 600px;">
+            </div>
+            <div class="projectSlide realimage image media cursor left" style="height: 600px;">
+                <img src="img/packing6.jpg" style="height: 600px;">
+            </div>
+                  
+    		  </div>
+    		</div>
+    		
+    		<div class="projectBottom left" style="margin-top: 542px; right: 24px;">
+    			<div class="projectBottomInner hundred left">
+    				<div class="slideLeft left box-shadow">
+    				    &nbsp;
+    				</div>	
+    				<div class="slideRight left box-shadow">
+    				    &nbsp;
+    				</div>	
+    			</div>
+    		</div>
+    		   			
+    		<div class="counter left bigButton box-shadow" style="margin-top: 434px; left: 372px;"></div>
+    		                                              
+    		<div class="toggler left bigButton box-shadow" style="margin-top: 434px; left: 273px;">◀ Info</div>
+    		
+    		<div class="projectSeparator" style="width: 1855px; margin-top: 540px; margin-left: 24px;"> &nbsp; </div>
+    		
+				<div class="commentsBoxy left modul2 off" style="height: 600px;"></div>
+				<div style="padding-left: 24px; width: 324px; height: 600px; left: 0px;" class="projectInfo modul2 on">
+    	    <div style="padding-right: 24px;" class="projectInfoInner">
+    	    	<h2>PACKING</h2><br>
+    	    		    	    	
+    	    	<div class="post_content">
+    	    	  <p>
+    	            <strong> 深度挖掘设计的商业价值 <br/>
+                用化繁为简的设计     <br/>
+                为您找到最直接有效的       <br/>
+                           视觉解决方案      <br/>
+                                     <br>
+                -食品包装    <br>
+                -电商快递包装       <br>
+                -快消品包装      <br>
+                -电子产品包装     <br>
+                <br>
+                -简易包装     <br>
+                -环保包装    <br>
+                -多用途包装 <br>
+  	              </strong> </p>
+                    <h2>TEL:18610157820</h2> <br/>
+    	    		<p><a href="mailto:lansetom@163.com" target="_blank">LanseTom【AT】163.com/a></p>
+              <p>&nbsp;</p>
+    	    		<br>
+    	    	</div>
+    				    				    				    				
+    	    </div>
+	    	</div>	    	
+	    </div>
+
+    </div>
+	</div>
+
+	<div id="belowInfinity"></div>
+	    <div style="margin-bottom: 186px; position: static; margin-top: 48px;" id="footer" class="left">
+  	    	<div id="footerInner" class="left hundred" style="padding-left: 24px; padding-bottom: 24px; width: 1855px;">
+          		<div class="left modul1 small"></div>
+          		<div class="right align-right modul1 small"> © 吕峰 </div>
+        	</div>
+		  </div>	    
+</div> <!-- #siteWrapper Close -->
+
+<!-- Plugins -->
+<script type="text/javascript" src="assets/plugins.js"></script>
+<script type="text/javascript" src="assets/modernizer-css-transform3d.js"></script>
+<!-- Video -->
+<script type="text/javascript" src="assets/jquery-ui-1.js"></script>
+<!-- <script type="text/javascript" src="assets/jquery_002.js"></script> -->
+<!-- Layers UI -->
+<script type="text/javascript" src="assets/layers.js"></script>
+
+
+
+</body></html>
